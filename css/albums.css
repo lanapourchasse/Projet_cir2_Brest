@@ -29,16 +29,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .artiste37 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    left: 0%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  
   .titre24 {
     position: absolute;
     height: 49.09%;
@@ -138,13 +129,7 @@
     height: 50px;
     object-fit: cover;
   }
-  .logo22 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-xl);
-  }
+  
   .group-child12 {
     position: absolute;
     top: 0px;
@@ -154,16 +139,7 @@
     width: 276px;
     height: 50px;
   }
-  .retour4 {
-    position: absolute;
-    top: 0px;
-    left: 99px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75px;
-    height: 51px;
-  }
+
   .rectangle-parent11 {
     position: relative;
     width: 276px;
@@ -176,48 +152,7 @@
     height: 100px;
     object-fit: cover;
   }
-  .logo24 {
-    background-color: var(--color-snow-100);
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .logo23 {
-    width: 87px;
-    height: 75px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-  .footer4 {
-    position: absolute;
-    height: 9.99%;
-    width: 100%;
-    top: 90.01%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    background-color: var(--color-white);
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding-9xs) 0px var(--padding-9xs) var(--padding-lgi);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-375xl);
-  }
-  .logo25 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    cursor: pointer;
-  }
+
   .header-princ-child6 {
     position: relative;
     width: 45px;
@@ -233,16 +168,7 @@
     width: 541px;
     height: 55px;
   }
-  .recherche4 {
-    position: absolute;
-    top: 8px;
-    left: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 246.69px;
-    height: 39px;
-  }
+
   .rectangle-parent12 {
     position: relative;
     width: 541px;
@@ -254,25 +180,7 @@
     height: 50px;
     cursor: pointer;
   }
-  .header-princ4 {
-    position: absolute;
-    height: 10.63%;
-    width: 99.93%;
-    top: 0%;
-    right: 0%;
-    bottom: 89.37%;
-    left: 0.07%;
-    background-color: var(--color-white);
-    display: flex;
-    flex-direction: row;
-    padding: 0px var(--padding-43xl);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-71xl);
-    font-size: var(--artiste-size);
-    font-family: var(--font-gill-sans-mt-condensed);
-  }
+
   .albums1 {
     position: absolute;
     top: 18.7%;
