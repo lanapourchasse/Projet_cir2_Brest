@@ -1,16 +1,3 @@
-<?php
-
-ini_set('display_errors', 'on');
-error_reporting(E_ALL);
-
-spl_autoload_register(function ($class) {
-  include 'class/' . $class . '.class.php';
-});
-
-$db = new Database('projet_54', 'carla_lana', 'carla_lana', 'localhost');
-
-?>
-
 <html>
    <head>
        <meta charset="utf-8">
