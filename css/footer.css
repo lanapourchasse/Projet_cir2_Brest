@@ -1,0 +1,83 @@
+.logo_reseaux {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+
+  .logo-rs {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+
+
+  .logo-bottom{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+
+  .rectangle-bouton{
+
+
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+    border-radius: var(--br-xl);
+    background-color: var(--color-silver);
+    width: 276px;
+    height: 50px;
+
+
+  }
+  .retour {
+    position: absolute;
+    top: 0px;
+    left: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 51px;
+
+
+  }
+  .rectangle-footer
+  {
+    position: relative;
+    width: 276px;
+    height: 51px;
+    cursor: pointer;
+  }
+  .gestion-logo-bottom{
+    width: 87px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .footer {
+    position: absolute;
+    top: 776px;
+    left: -5px;
+    background-color: var(--color-white);
+    width: 1437px;
+    height: 94px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-9xs) 0px var(--padding-9xs) var(--padding-lgi);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-375xl);
+    font-size: var(--font-size-xl);
+  }
