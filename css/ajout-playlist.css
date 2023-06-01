@@ -1,0 +1,111 @@
+
+.ajout-titre-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: var(--br-13xl);
+    background-color: var(--color-silver);
+    width: 651px;
+    height: 578px;
+  }
+  .instance-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .font-awesome-freebrandsoundc {
+    position: absolute;
+    height: 89.29%;
+    width: 15.02%;
+    top: 0%;
+    right: 84.98%;
+    bottom: 10.71%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .titre8 {
+    position: absolute;
+    top: 10.71%;
+    left: 40.84%;
+  }
+  .vector-parent {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+  }
+  .playlist-regrouper {
+    position: absolute;
+    height: 47.06%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 52.94%;
+    left: 0%;
+    cursor: pointer;
+  }
+  .playlist-regrouper1 {
+    position: absolute;
+    height: 47.06%;
+    width: 100%;
+    top: 52.94%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    cursor: pointer;
+  }
+  .list-regrouper-de-playlist {
+    position: absolute;
+    top: 313px;
+    left: 159px;
+    width: 333px;
+    height: 119px;
+  }
+  .a-quelle-playlist {
+    position: absolute;
+    top: 42px;
+    left: 56px;
+    font-family: var(--artiste);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 539px;
+    height: 108px;
+  }
+  .list-regrouper-de-playlist1 {
+    position: absolute;
+    top: 187px;
+    left: 159px;
+    width: 333px;
+    height: 119px;
+  }
+  .ajout-titre-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 651px;
+    height: 578px;
+  }
+  .ajout-a-un-playlist {
+    position: relative;
+    width: 100%;
+    height: 578px;
+    text-align: center;
+    font-size: var(--artiste-size);
+    color: var(--color-gray-200);
+    font-family: var(--font-linden-hill);
+  }
+  

@@ -1,0 +1,332 @@
+.group-child42 {
+    position: absolute;
+    top: 0px;
+    left: 21px;
+    background-color: var(--color-silver);
+    width: 1436px;
+    height: 941px;
+  }
+  .date13 {
+    position: absolute;
+    top: 169px;
+    left: 1321px;
+  }
+  .logo-child24 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .logo47 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+  .group-child43 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: var(--br-xl);
+    background-color: var(--color-silver);
+    width: 276px;
+    height: 50px;
+  }
+  .retour9 {
+    position: absolute;
+    top: 0px;
+    left: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 51px;
+  }
+  .rectangle-parent25 {
+    position: relative;
+    width: 276px;
+    height: 51px;
+    cursor: pointer;
+  }
+  .design-sans-titre-119 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .logo49 {
+    background-color: var(--color-snow-100);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .logo48 {
+    width: 87px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .footer9 {
+    position: absolute;
+    top: 840px;
+    left: 21px;
+    background-color: var(--color-white);
+    width: 1436px;
+    height: 101px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-9xs) 0px var(--padding-9xs) var(--padding-lgi);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-375xl);
+    font-size: var(--font-size-xl);
+  }
+  .logo50 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+  .header-princ-child16 {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+  }
+  .group-child44 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: var(--br-xl);
+    background-color: var(--color-darkgray);
+    width: 541px;
+    height: 55px;
+  }
+  .recherche9 {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 246.69px;
+    height: 39px;
+  }
+  .rectangle-parent26 {
+    position: relative;
+    width: 541px;
+    height: 55px;
+  }
+  .header-princ9 {
+    position: absolute;
+    top: 0px;
+    left: 21px;
+    background-color: var(--color-white);
+    width: 1436px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px var(--padding-43xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-71xl);
+    font-family: var(--font-gill-sans-mt-condensed);
+  }
+  .artiste49 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .titre49 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    cursor: pointer;
+  }
+  .titre48 {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 284px;
+    height: 155px;
+    font-size: var(--font-size-29xl);
+  }
+  .bootstrapshapesheart-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .bootstrapmediaplay-circle-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
+  .bootstrapshapesheart-parent {
+    position: absolute;
+    top: 255px;
+    left: 82px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+  .affichage-1-morceau-child7 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: var(--color-white);
+    cursor: pointer;
+  }
+  .bootstrapmediasoundwave-icon9 {
+    position: absolute;
+    height: 100%;
+    width: 5.42%;
+    top: 0%;
+    right: 91.88%;
+    bottom: 0%;
+    left: 2.71%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .titre50 {
+    position: absolute;
+    height: 67.19%;
+    width: 11.15%;
+    top: 23.44%;
+    left: 16.45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .i9 {
+    position: absolute;
+    height: 67.19%;
+    width: 13.53%;
+    top: 14.06%;
+    left: 81.54%;
+    display: flex;
+    color: var(--color-silver);
+    align-items: center;
+    justify-content: center;
+  }
+  .affichage-1-morceau9 {
+    position: absolute;
+    height: 24.39%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 75.61%;
+    left: 0%;
+    cursor: pointer;
+  }
+  .affichage-1-morceau10 {
+    position: absolute;
+    height: 24.39%;
+    width: 100%;
+    top: 37.8%;
+    right: 0%;
+    bottom: 37.8%;
+    left: 0%;
+    cursor: pointer;
+  }
+  .affichage-1-morceau11 {
+    position: absolute;
+    height: 24.39%;
+    width: 100%;
+    top: 75.61%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    cursor: pointer;
+  }
+  .liste-morceaux3 {
+    position: relative;
+    width: 1092px;
+    height: 225px;
+  }
+  .morceaux-playlist-child {
+    position: relative;
+    width: 60px;
+    height: 240px;
+  }
+  .morceaux-playlist {
+    position: absolute;
+    top: 334px;
+    left: 106px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 55px;
+    color: var(--color-lightblue);
+    font-family: var(--font-linden-hill);
+  }
+  .affichage-1-morceau-child10 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: var(--color-white);
+  }
+  .liste-morceaux4 {
+    position: absolute;
+    top: 594.5px;
+    left: 106px;
+    width: 1092px;
+    height: 225px;
+    color: var(--color-lightblue);
+    font-family: var(--font-linden-hill);
+  }
+  .group-child45 {
+    position: absolute;
+    top: 587px;
+    left: 1253px;
+    width: 60px;
+    height: 240px;
+  }
+  .rectangle-parent24 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1457px;
+    height: 941px;
+  }
+  .playlist10 {
+    position: relative;
+    width: 100%;
+    height: 941px;
+    text-align: center;
+    font-size: var(--artiste-size);
+    color: var(--color-white);
+    font-family: var(--artiste);
+  }
+  

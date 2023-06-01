@@ -1,0 +1,239 @@
+.resultat-recherche-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: var(--color-silver);
+    width: 1436px;
+    height: 941px;
+  }
+  .resultat-recherche3 {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    width: 1436px;
+    height: 941px;
+  }
+  .artiste3 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .artiste2 {
+    position: absolute;
+    top: 82px;
+    left: 0px;
+    width: 162px;
+    height: 103px;
+    cursor: pointer;
+  }
+  .artiste4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 162px;
+    height: 103px;
+    cursor: pointer;
+  }
+  .artiste6 {
+    position: absolute;
+    top: 161px;
+    left: 0px;
+    width: 162px;
+    height: 103px;
+    cursor: pointer;
+  }
+  .artiste-parent {
+    position: absolute;
+    top: 339px;
+    left: 94px;
+    width: 162px;
+    height: 264px;
+  }
+  .artiste-group {
+    position: absolute;
+    top: 342px;
+    left: 377px;
+    width: 162px;
+    height: 264px;
+  }
+  .artiste-container {
+    position: absolute;
+    top: 339px;
+    left: 899px;
+    width: 162px;
+    height: 264px;
+  }
+  .group-div {
+    position: absolute;
+    top: 339px;
+    left: 638px;
+    width: 162px;
+    height: 264px;
+  }
+  .rectangle-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .logo7 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+  .group-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: var(--br-xl);
+    background-color: var(--color-silver);
+    width: 276px;
+    height: 50px;
+  }
+  .retour1 {
+    position: absolute;
+    top: 0px;
+    left: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 51px;
+  }
+  .rectangle-container {
+    position: relative;
+    width: 276px;
+    height: 51px;
+    cursor: pointer;
+  }
+  .design-sans-titre-13 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .logo9 {
+    background-color: var(--color-snow-100);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .logo8 {
+    width: 87px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .footer1 {
+    position: absolute;
+    top: 847px;
+    left: 0px;
+    background-color: var(--color-white);
+    width: 1437px;
+    height: 94px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-9xs) 0px var(--padding-9xs) var(--padding-lgi);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-375xl);
+    font-size: var(--font-size-xl);
+    font-family: var(--artiste);
+  }
+  .logo10 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+  .header-princ-inner {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+  }
+  .group-child1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: var(--br-xl);
+    background-color: var(--color-darkgray);
+    width: 541px;
+    height: 55px;
+  }
+  .recherche1 {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 246.69px;
+    height: 39px;
+  }
+  .rectangle-parent1 {
+    position: relative;
+    width: 541px;
+    height: 55px;
+  }
+  .bootstrapreal-worldbook-icon1 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .header-princ1 {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    background-color: var(--color-white);
+    width: 1436px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px var(--padding-43xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-71xl);
+    font-size: var(--artiste-size);
+    font-family: var(--font-gill-sans-mt-condensed);
+  }
+  .artistes {
+    position: absolute;
+    top: 181px;
+    left: 30px;
+    font-size: var(--font-size-45xl);
+    font-family: var(--artiste);
+  }
+  .resultat-recherche-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1437px;
+    height: 941px;
+  }
+  .resultat-recherche2 {
+    position: relative;
+    width: 100%;
+    height: 941px;
+    text-align: center;
+    font-size: var(--font-size-29xl);
+    color: var(--color-white);
+    font-family: var(--font-linden-hill);
+  }
+  

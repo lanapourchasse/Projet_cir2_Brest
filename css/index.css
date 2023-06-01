@@ -1,0 +1,188 @@
+.iphone-14-1-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fefcfc;
+    width: 390px;
+    height: 109px;
+  }
+  .design-sans-titre-1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .logo1 {
+    background-color: var(--color-snow-100);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .logo,
+  .menu-burger-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+  .menu-burger-child {
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background-color: #a3b0c8;
+  }
+  .menu-burger-inner,
+  .menu-burger-item,
+  .rectangle-div {
+    position: absolute;
+    height: 11.63%;
+    width: 60.98%;
+    top: 65.12%;
+    right: 19.51%;
+    bottom: 23.26%;
+    left: 19.51%;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-gray-300);
+  }
+  .menu-burger-inner,
+  .rectangle-div {
+    top: 44.19%;
+    bottom: 44.19%;
+  }
+  .rectangle-div {
+    top: 23.26%;
+    bottom: 65.12%;
+  }
+  .menu-burger,
+  .qualf-1-icon {
+    position: absolute;
+    top: 33px;
+    left: 320px;
+    width: 41px;
+    height: 43px;
+  }
+  .qualf-1-icon {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .qualf-2 {
+    width: 100px;
+    height: 100px;
+  }
+  .artiste,
+  .qualf-2 {
+    position: relative;
+  }
+  .description,
+  .playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .description {
+    align-self: stretch;
+    align-items: center;
+  }
+  .playlist {
+    position: absolute;
+    top: 298px;
+    left: 145px;
+    align-items: flex-start;
+    gap: var(--gap-3xs);
+    cursor: pointer;
+  }
+  .recommandations {
+    position: absolute;
+    top: 218px;
+    left: 31px;
+    font-size: var(--artiste-size);
+    font-family: var(--artiste);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .arrows-icon,
+  .arrows-icon1,
+  .arrows-icon2,
+  .arrows-icon3 {
+    position: absolute;
+    top: 336px;
+    left: 50px;
+    width: 32px;
+    height: 37.5px;
+  }
+  .arrows-icon1,
+  .arrows-icon2,
+  .arrows-icon3 {
+    top: 658px;
+    left: 73px;
+  }
+  .arrows-icon2,
+  .arrows-icon3 {
+    top: 336px;
+    left: 306px;
+    width: 34px;
+  }
+  .arrows-icon3 {
+    top: 661px;
+  }
+  .les-plus-coutes {
+    position: absolute;
+    top: 503px;
+    left: 50px;
+    font-size: var(--artiste-size);
+    font-family: var(--artiste);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .qualf-1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+  }
+  .description1,
+  .playlist1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .description1 {
+    align-self: stretch;
+    justify-content: flex-start;
+  }
+  .playlist1 {
+    position: absolute;
+    top: 611px;
+    left: 145px;
+    justify-content: center;
+    gap: var(--gap-3xs);
+    cursor: pointer;
+  }
+  .iphone-14-1 {
+    position: relative;
+    background-color: var(--color-silver);
+    width: 100%;
+    height: 844px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-linden-hill);
+  }
+  

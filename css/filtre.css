@@ -1,0 +1,46 @@
+.group-child2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: var(--br-13xl);
+    background-color: var(--color-silver);
+    width: 651px;
+    height: 578px;
+  }
+  .artiste26 {
+    position: absolute;
+    top: 151px;
+    left: 268px;
+    cursor: pointer;
+  }
+  .album {
+    position: absolute;
+    top: 387px;
+    left: 268px;
+    cursor: pointer;
+  }
+  .morceau {
+    position: absolute;
+    top: 269.08px;
+    left: 251px;
+    transform: rotate(-0.04deg);
+    transform-origin: 0 0;
+    cursor: pointer;
+  }
+  .filtre-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 651px;
+    height: 578px;
+  }
+  .filtre {
+    position: relative;
+    width: 100%;
+    height: 578px;
+    text-align: center;
+    font-size: var(--artiste-size);
+    color: var(--color-gray-100);
+    font-family: var(--artiste);
+  }
+  

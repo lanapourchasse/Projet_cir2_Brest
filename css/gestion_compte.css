@@ -1,0 +1,296 @@
+.group-child17 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: var(--color-silver);
+    width: 1436px;
+    height: 941px;
+  }
+  .bootstraptoolspencil-square-icon {
+    position: absolute;
+    top: 276px;
+    left: 1112px;
+    width: 50px;
+    height: 50px;
+  }
+  .bootstraptoolspencil-square-icon1 {
+    position: absolute;
+    top: 445px;
+    left: 1112px;
+    width: 50px;
+    height: 50px;
+  }
+  .bootstraptoolspencil-square-icon4 {
+    position: absolute;
+    top: 366px;
+    left: 1112px;
+    width: 50px;
+    height: 50px;
+  }
+  .bootstraptoolspencil-square-icon5 {
+    position: absolute;
+    top: 608px;
+    left: 1112px;
+    width: 50px;
+    height: 50px;
+  }
+  .bootstraptoolspencil-square-icon6 {
+    position: absolute;
+    top: 524px;
+    left: 1112px;
+    width: 50px;
+    height: 50px;
+  }
+  .logo-child15 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .logo32 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+  .group-child18 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: var(--br-xl);
+    background-color: var(--color-silver);
+    width: 276px;
+    height: 50px;
+  }
+  .retour6 {
+    position: absolute;
+    top: 0px;
+    left: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 51px;
+  }
+  .rectangle-parent16 {
+    position: relative;
+    width: 276px;
+    height: 51px;
+    cursor: pointer;
+  }
+  .design-sans-titre-113 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .logo34 {
+    background-color: var(--color-snow-100);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .logo33 {
+    width: 87px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .footer6 {
+    position: absolute;
+    top: 847px;
+    left: 0px;
+    background-color: var(--color-white);
+    width: 1437px;
+    height: 94px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-9xs) 0px var(--padding-9xs) var(--padding-lgi);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-375xl);
+    font-size: var(--font-size-xl);
+  }
+  .logo35 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+  .header-princ-child10 {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+  }
+  .group-child19 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: var(--br-xl);
+    background-color: var(--color-darkgray);
+    width: 541px;
+    height: 55px;
+  }
+  .recherche6 {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 246.69px;
+    height: 39px;
+  }
+  .rectangle-parent17 {
+    position: relative;
+    width: 541px;
+    height: 55px;
+  }
+  .bootstrapreal-worldbook-icon6 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .header-princ6 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: var(--color-white);
+    width: 1436px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px var(--padding-43xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-71xl);
+    font-family: var(--font-gill-sans-mt-condensed);
+  }
+  .gestion-du-compte {
+    position: absolute;
+    top: 137px;
+    left: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 351px;
+    height: 110px;
+  }
+  .nom {
+    position: absolute;
+    top: 264px;
+    left: 291px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 182px;
+    height: 52px;
+  }
+  .prenom {
+    position: absolute;
+    top: 354px;
+    left: 301px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 182px;
+    height: 52px;
+  }
+  .mot-de-passe {
+    position: absolute;
+    top: 593px;
+    left: 263px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 258px;
+    height: 81px;
+  }
+  .age {
+    position: absolute;
+    top: 527px;
+    left: 291px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 182px;
+    height: 52px;
+  }
+  .email {
+    position: absolute;
+    top: 435px;
+    left: 291px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 182px;
+    height: 52px;
+  }
+  .group-child20 {
+    position: absolute;
+    top: 364px;
+    left: 558px;
+    background-color: var(--color-white);
+    width: 540px;
+    height: 52px;
+  }
+  .group-child21 {
+    position: absolute;
+    top: 608px;
+    left: 558px;
+    background-color: var(--color-white);
+    width: 540px;
+    height: 52px;
+  }
+  .group-child22 {
+    position: absolute;
+    top: 274px;
+    left: 558px;
+    background-color: var(--color-white);
+    width: 540px;
+    height: 52px;
+  }
+  .group-child23 {
+    position: absolute;
+    top: 445px;
+    left: 558px;
+    background-color: var(--color-white);
+    width: 540px;
+    height: 52px;
+  }
+  .group-child24 {
+    position: absolute;
+    top: 527px;
+    left: 558px;
+    background-color: var(--color-white);
+    width: 540px;
+    height: 52px;
+  }
+  .rectangle-parent15 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1437px;
+    height: 941px;
+  }
+  .gestion-de-compte {
+    position: relative;
+    width: 100%;
+    height: 941px;
+    text-align: center;
+    font-size: var(--artiste-size);
+    color: var(--color-white);
+    font-family: var(--artiste);
+  }
+  
