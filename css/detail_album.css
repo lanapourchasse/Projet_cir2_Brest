@@ -1,3 +1,12 @@
+
+body 
+{
+  margin: 0;
+  padding: 0;
+  background-color:#B4C5CB;
+}
+
+
 .album-child {
     position: absolute;
     top: 0px;
@@ -75,13 +84,7 @@
     height: 50px;
     object-fit: cover;
   }
-  .logo12 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-xl);
-  }
+  
   .group-child3 {
     position: absolute;
     top: 0px;
@@ -91,16 +94,7 @@
     width: 276px;
     height: 50px;
   }
-  .retour2 {
-    position: absolute;
-    top: 0px;
-    left: 99px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75px;
-    height: 51px;
-  }
+  
   .rectangle-parent3 {
     position: relative;
     width: 276px;
@@ -113,47 +107,8 @@
     height: 100px;
     object-fit: cover;
   }
-  .logo14 {
-    background-color: var(--color-snow-100);
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .logo13 {
-    width: 87px;
-    height: 75px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-  .footer2 {
-    position: absolute;
-    top: 847px;
-    left: 0px;
-    background-color: var(--color-white);
-    width: 1437px;
-    height: 94px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding-9xs) 0px var(--padding-9xs) var(--padding-lgi);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-375xl);
-    font-size: var(--font-size-xl);
-  }
-  .logo15 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    cursor: pointer;
-  }
+  
+
   .header-princ-child2 {
     position: relative;
     width: 45px;
@@ -169,16 +124,7 @@
     width: 541px;
     height: 55px;
   }
-  .recherche2 {
-    position: absolute;
-    top: 8px;
-    left: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 246.69px;
-    height: 39px;
-  }
+
   .rectangle-parent4 {
     position: relative;
     width: 541px;
@@ -190,21 +136,7 @@
     height: 50px;
     cursor: pointer;
   }
-  .header-princ2 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: var(--color-white);
-    width: 1436px;
-    display: flex;
-    flex-direction: row;
-    padding: 0px var(--padding-43xl);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-71xl);
-    font-family: var(--font-gill-sans-mt-condensed);
-  }
+  
   .qualf-1-icon2 {
     position: absolute;
     height: 100%;

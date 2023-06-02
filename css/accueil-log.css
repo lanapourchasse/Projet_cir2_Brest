@@ -4,192 +4,13 @@ body
   padding: 0;
   background-color:#B4C5CB;
 }
+a:ti
 
-
-
-.header-princ{
-  position: absolute;
-  top: 40px;
-  left: 0px;
-  background-color: var(--color-white);
-  width: 100%;
-  height: 103px;
-  display: flex;
-  flex-direction: row;
-  padding: 0px ;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-71xl);
-  font-family: var(--font-gill-sans-mt-condensed);
-  background-color:#ffffff;
-
+a:visited
+{
+  color:#B4C5CB;
 }
-
-
-.logo-top {
-
-    position: relative;
-    width: 100px;
-    height: 80px;
-    object-fit: cover;
-  }
-
-
-  .loupe{
-    position: relative;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-  }
-  .gestion-logo-top {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    cursor: pointer;
-  }
-
-
-  .gestion-image-logo-top {
-    background-color: var(--color-snow-100);
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
   
-  .filtre {
-    position: relative;
-    width: 45px;
-    height: 45px;
-    object-fit: cover;
-
-  }
-
-  .barre_recherche {
-    position: relative;
-    width: 541px;
-    height: 55px;
-    background-color: #B4C5CB;
-    border-radius: 20px;
-  }
-
-
-
-  .group-child49 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: var(--br-xl);
-    background-color: var(--color-darkgray);
-    width: 541px;
-    height: 55px;
-  }
-  .recherche11 {
-    position: absolute;
-    top: 8px;
-    left: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 246.69px;
-    height: 39px;
-  }
-  
-  .boutons_header{
-    margin: 50px;
-    position: relative;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-  }
-
-
-  .logo_reseaux {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-xl);
-  }
-
-  .logo-rs {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-  }
-
-
-  .logo-bottom{
-    position: relative;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-  }
-
-
-  .rectangle-bouton{
-
-
-    position: absolute;
-
-    top: 0px;
-    left: 0px;
-    border-radius: var(--br-xl);
-    background-color: var(--color-silver);
-    width: 276px;
-    height: 50px;
-
-
-  }
-  .retour {
-    position: absolute;
-    top: 0px;
-    left: 99px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75px;
-    height: 51px;
-
-
-  }
-  .rectangle-footer
-  {
-    position: relative;
-    width: 276px;
-    height: 51px;
-    cursor: pointer;
-  }
-  .gestion-logo-bottom{
-    width: 87px;
-    height: 75px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-  .footer {
-    position: absolute;
-    top: 776px;
-    left: -5px;
-    background-color: var(--color-white);
-    width: 1437px;
-    height: 94px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding-9xs) 0px var(--padding-9xs) var(--padding-lgi);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-375xl);
-    font-size: var(--font-size-xl);
-  }
   .affichage-1-morceau {
     position: absolute;
     height: 100%;
@@ -350,6 +171,7 @@ body
     cursor: pointer;
   }
   .vos-playlist {
+   
     position: relative;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
@@ -508,8 +330,8 @@ body
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 1436px;
-    height: 870px;
+    width: 98%;
+    height: 100%;
   }
   .accueil-log {
     position: relative;
@@ -521,3 +343,83 @@ body
     font-family: var(--artiste);
   }
   
+
+
+
+  @media only screen and (max-width:500px) 
+{
+
+
+  .full-width-img {
+    margin: auto;
+    width: 90%;
+    }
+  body 
+  {
+    margin: 0;
+    padding: 0;
+    background-color:#d69fe1;
+  }
+
+  .accueil-log1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 98%;
+    height: 200%;
+  }
+
+
+  .historique-dcoute {
+    position: absolute;
+    top: 200px;
+    left: 49.3%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .affichage-1-morceau-parent {
+    position: absolute;
+    top: 319px;
+    left: 11px;
+    width: 0.2%;
+    height: 4%;
+    color: var(--color-lightblue);
+    font-family: var(--font-linden-hill);
+  }
+
+
+  .playlistfav {
+    position: absolute;
+    top: 891px;
+    left: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10%;
+  }
+
+
+  .group-container {
+  position:absolute;
+    top: 300px;
+    width: 30vw;
+    height: 104vw;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-linden-hill);
+  }
+
+  .qualf-1-parent {
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    left: 175px;
+    width: 163px;
+    height: 100px;
+  }
+
+
+}
+
+
+

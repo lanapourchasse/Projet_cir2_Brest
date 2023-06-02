@@ -1,4 +1,9 @@
-
+body 
+{
+  margin: 0;
+  padding: 0;
+  background-color:#B4C5CB;
+}
 .ajout-titre-child {
     position: absolute;
     top: 0px;

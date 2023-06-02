@@ -1,15 +1,21 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+  background-color:#B4C5CB;
+}
 .group-child46 {
     position: absolute;
     top: 0px;
     left: 1px;
     background-color: var(--color-silver);
-    width: 1436px;
+    width: 98%;
     height: 941px;
   }
   .bootstrapshapesheart-icon1 {
     position: absolute;
     top: 718px;
-    left: 1153px;
+    left: 100%;
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -77,27 +83,7 @@
     height: 50px;
     cursor: pointer;
   }
-  .header-princ10 {
-    position: absolute;
-    top: 0px;
-    left: 1px;
-    background-color: var(--color-white);
-    width: 1436px;
-    display: flex;
-    flex-direction: row;
-    padding: 0px var(--padding-43xl);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-71xl);
-  }
-  .logo54 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-xl);
-  }
+ 
   .group-child48 {
     position: absolute;
     top: 0px;
@@ -123,33 +109,7 @@
     height: 51px;
     cursor: pointer;
   }
-  .logo55 {
-    width: 87px;
-    height: 75px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-  .footer10 {
-    position: absolute;
-    top: 847px;
-    left: 0px;
-    background-color: var(--color-white);
-    width: 1437px;
-    height: 94px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding-9xs) 0px var(--padding-9xs) var(--padding-lgi);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-375xl);
-    font-size: var(--font-size-xl);
-    font-family: var(--artiste);
-  }
+
   .play-icon3 {
     position: absolute;
     top: 718px;
@@ -161,7 +121,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 1437px;
+    width: 98%;
     height: 941px;
     font-size: var(--artiste-size);
     font-family: var(--font-gill-sans-mt-condensed);
@@ -234,17 +194,17 @@
   }
   .pngwing-2-icon {
     position: absolute;
-    top: 539px;
+    top: 544px;
     left: 244px;
-    width: 895px;
-    height: 115px;
+    width: 70%;
+    height: 10%;
     object-fit: cover;
   }
   .morceau-inner {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 1437px;
+    width: 100%;
     height: 941px;
   }
   .morceau-child {
@@ -255,14 +215,14 @@
     right: 83.47%;
     bottom: 17.05%;
     left: 12.56%;
-    max-width: 100%;
+    max-width: 98%;
     overflow: hidden;
-    max-height: 100%;
+    max-height: 98%;
     cursor: pointer;
   }
   .morceau1 {
     position: relative;
-    width: 100%;
+    width: 98%;
     height: 941px;
     text-align: center;
     font-size: var(--font-size-29xl);

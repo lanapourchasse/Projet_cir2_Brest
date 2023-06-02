@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/ajout_fav.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Linden Hill:ital,wght@0,400;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Limelight:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gill Sans MT Condensed:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="cration-du-playlist2">
+      <div class="rectangle-parent9">
+        <div class="group-child9"></div>
+        <div class="valider2" id="validerContainer">
+          <img
+            class="valider-inner"
+            alt=""
+            src="img/valider.png"
+          />
+        </div>
+      </div>
+      <div class="nom-musique-container2">
+        <span class="nom-musique-container3">
+          <p class="a-t-ajout">*Nom Musique *</p>
+          <p class="a-t-ajout">a été ajouté</p>
+          <p class="a-t-ajout">au favoris</p>
+        </span>
+      </div>
+    </div>
+
+    <script>
+      var validerContainer = document.getElementById("validerContainer");
+      if(validerContainer) {
+        validerContainer.addEventListener("click", function (e) {
+          window.location.href = "./bibliotheque.html"
+        });
+      }
+    </script>
+  </body>
+</html>
