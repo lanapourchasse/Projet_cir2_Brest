@@ -1,125 +1,117 @@
-body 
-{
-  margin: 0;
-  padding: 0;
-  background-color:#B4C5CB;
-}
-
 .accueil-child {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: var(--color-silver);
-    width: 1436px;
-    height: 941px;
-  }
-  .design-sans-titre-123 {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-  }
-  .logo58 {
-    background-color: var(--color-snow-100);
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .logo57 {
-    display: none;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    cursor: pointer;
-  }
-  .header {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    background-color: var(--color-white);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    padding: var(--padding-9xs) 247px;
-    box-sizing: border-box;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .logo59 {
-    position: absolute;
-    height: 28.17%;
-    width: 10.32%;
-    top: 39.62%;
-    right: 45.61%;
-    bottom: 32.21%;
-    left: 44.07%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    cursor: pointer;
-  }
-  .connexion-child {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    border-radius: var(--br-xl);
-    background-color: var(--color-silver);
-  }
-  .connexion4 {
-    position: absolute;
-    top: 45.62%;
-    left: 18.62%;
-  }
-  .connexion3 {
-    position: absolute;
-    height: 69.44%;
-    width: 19.01%;
-    top: 18.52%;
-    right: 68.45%;
-    bottom: 12.04%;
-    left: 12.53%;
-    cursor: pointer;
-  }
-  .inscription4 {
-    position: absolute;
-    top: 37.62%;
-    left: 17.22%;
-  }
-  .rectangle-parent30 {
-    position: absolute;
-    height: 69.44%;
-    width: 19.15%;
-    top: 18.52%;
-    right: 13.02%;
-    bottom: 12.04%;
-    left: 67.83%;
-    cursor: pointer;
-  }
-  .header-non-log {
-    position: absolute;
-    top: 264px;
-    left: 234px;
-    width: 969px;
-    height: 355px;
-  }
-  .accueil {
-    position: relative;
-    width: 100%;
-    height: 941px;
-    text-align: center;
-    font-size: var(--font-size-xl);
-    color: var(--color-white);
-    font-family: var(--artiste);
-  }
-  
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: var(--color-silver);
+	width: 1436px;
+	height: 941px;
+}
+.design-sans-titre-123 {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+.logo58 {
+	background-color: var(--color-snow-100);
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.logo57 {
+	display: none;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	cursor: pointer;
+}
+.header {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	background-color: var(--color-white);
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	padding: var(--padding-9xs) 247px;
+	box-sizing: border-box;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.logo59 {
+	position: absolute;
+	height: 28.17%;
+	width: 10.32%;
+	top: 39.62%;
+	right: 45.61%;
+	bottom: 32.21%;
+	left: 44.07%;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	cursor: pointer;
+}
+.connexion-child {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	border-radius: var(--br-xl);
+	background-color: var(--color-silver);
+}
+.connexion4 {
+	position: absolute;
+	top: 45.62%;
+	left: 18.62%;
+}
+.connexion3 {
+	position: absolute;
+	height: 69.44%;
+	width: 19.01%;
+	top: 18.52%;
+	right: 68.45%;
+	bottom: 12.04%;
+	left: 12.53%;
+	cursor: pointer;
+}
+.inscription4 {
+	position: absolute;
+	top: 37.62%;
+	left: 17.22%;
+}
+.rectangle-parent30 {
+	position: absolute;
+	height: 69.44%;
+	width: 19.15%;
+	top: 18.52%;
+	right: 13.02%;
+	bottom: 12.04%;
+	left: 67.83%;
+	cursor: pointer;
+}
+.header-non-log {
+	position: absolute;
+	top: 264px;
+	left: 234px;
+	width: 969px;
+	height: 355px;
+}
+.accueil {
+	position: relative;
+	width: 100%;
+	height: 941px;
+	text-align: center;
+	font-size: var(--font-size-xl);
+	color: var(--color-white);
+	font-family: var(--artiste);
+}

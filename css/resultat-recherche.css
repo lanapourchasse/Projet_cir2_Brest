@@ -1,201 +1,192 @@
-body 
-{
-  margin: 0;
-  padding: 0;
-  background-color:#B4C5CB;
+.resultat-recherche-child {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: var(--color-silver);
+	width: 1436px;
+	height: 941px;
+}
+.affichage-1-morceau-child {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	background-color: var(--color-white);
+}
+.bootstrapmediasoundwave-icon {
+	position: absolute;
+	height: 100%;
+	width: 5.42%;
+	top: 0%;
+	right: 91.88%;
+	bottom: 0%;
+	left: 2.71%;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+}
+.titre2 {
+	position: absolute;
+	height: 67.19%;
+	width: 11.15%;
+	top: 23.44%;
+	left: 16.45%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.i {
+	position: absolute;
+	height: 67.19%;
+	width: 13.53%;
+	top: 14.06%;
+	left: 81.54%;
+	display: flex;
+	color: var(--color-silver);
+	align-items: center;
+	justify-content: center;
+}
+.affichage-1-morceau {
+	position: absolute;
+	height: 24.39%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 75.61%;
+	left: 0%;
+	cursor: pointer;
+}
+.affichage-1-morceau-item {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	background-color: var(--color-white);
+	cursor: pointer;
+}
+.affichage-1-morceau1 {
+	position: absolute;
+	height: 24.39%;
+	width: 100%;
+	top: 37.8%;
+	right: 0%;
+	bottom: 37.8%;
+	left: 0%;
+	cursor: pointer;
+}
+.affichage-1-morceau2 {
+	position: absolute;
+	height: 24.39%;
+	width: 100%;
+	top: 75.61%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	cursor: pointer;
+}
+.liste-morceaux {
+	position: absolute;
+	top: 551px;
+	left: 172px;
+	width: 1092px;
+	height: 225px;
+}
+.liste-morceaux1 {
+	position: absolute;
+	top: 295px;
+	left: 172px;
+	width: 1092px;
+	height: 225px;
+}
+.resultat-recherche1 {
+	position: absolute;
+	top: 0px;
+	left: 1px;
+	width: 1436px;
+	height: 941px;
+	color: var(--color-lightblue);
+	font-family: var(--font-linden-hill);
 }
 
+.group-child {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: var(--br-xl);
+	background-color: var(--color-silver);
+	width: 276px;
+	height: 50px;
+}
 
-.resultat-recherche-child {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: var(--color-silver);
-    width: 1436px;
-    height: 941px;
-  }
-  .affichage-1-morceau-child {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    background-color: var(--color-white);
-  }
-  .bootstrapmediasoundwave-icon {
-    position: absolute;
-    height: 100%;
-    width: 5.42%;
-    top: 0%;
-    right: 91.88%;
-    bottom: 0%;
-    left: 2.71%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .titre2 {
-    position: absolute;
-    height: 67.19%;
-    width: 11.15%;
-    top: 23.44%;
-    left: 16.45%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .i {
-    position: absolute;
-    height: 67.19%;
-    width: 13.53%;
-    top: 14.06%;
-    left: 81.54%;
-    display: flex;
-    color: var(--color-silver);
-    align-items: center;
-    justify-content: center;
-  }
-  .affichage-1-morceau {
-    position: absolute;
-    height: 24.39%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 75.61%;
-    left: 0%;
-    cursor: pointer;
-  }
-  .affichage-1-morceau-item {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    background-color: var(--color-white);
-    cursor: pointer;
-  }
-  .affichage-1-morceau1 {
-    position: absolute;
-    height: 24.39%;
-    width: 100%;
-    top: 37.8%;
-    right: 0%;
-    bottom: 37.8%;
-    left: 0%;
-    cursor: pointer;
-  }
-  .affichage-1-morceau2 {
-    position: absolute;
-    height: 24.39%;
-    width: 100%;
-    top: 75.61%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    cursor: pointer;
-  }
-  .liste-morceaux {
-    position: absolute;
-    top: 551px;
-    left: 172px;
-    width: 1092px;
-    height: 225px;
-  }
-  .liste-morceaux1 {
-    position: absolute;
-    top: 295px;
-    left: 172px;
-    width: 1092px;
-    height: 225px;
-  }
-  .resultat-recherche1 {
-    position: absolute;
-    top: 0px;
-    left: 1px;
-    width: 1436px;
-    height: 941px;
-    color: var(--color-lightblue);
-    font-family: var(--font-linden-hill);
-  }
- 
-  .group-child {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: var(--br-xl);
-    background-color: var(--color-silver);
-    width: 276px;
-    height: 50px;
-  }
-  
-  .rectangle-parent {
-    position: relative;
-    width: 276px;
-    height: 51px;
-    cursor: pointer;
-  }
-  .design-sans-titre-11 {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-  }
-  
-  .group-item {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: var(--br-xl);
-    background-color: var(--color-darkgray);
-    width: 541px;
-    height: 55px;
-  }
-  .recherche {
-    position: absolute;
-    top: 8px;
-    left: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 246.69px;
-    height: 39px;
-  }
-  .rectangle-group {
-    position: relative;
-    width: 541px;
-    height: 55px;
-  }
-  .bootstrapreal-worldbook-icon {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-  }
- 
-  .morceaux {
-    position: absolute;
-    top: 176px;
-    left: 63px;
-    font-size: var(--font-size-45xl);
-  }
-  .resultat-recherche-parent {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1437px;
-    height: 941px;
-  }
-  .resultat-recherche {
-    position: relative;
-    width: 100%;
-    height: 941px;
-    text-align: center;
-    font-size: var(--artiste-size);
-    color: var(--color-white);
-    font-family: var(--artiste);
-  }
-  
+.rectangle-parent {
+	position: relative;
+	width: 276px;
+	height: 51px;
+	cursor: pointer;
+}
+.design-sans-titre-11 {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+
+.group-item {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: var(--br-xl);
+	background-color: var(--color-darkgray);
+	width: 541px;
+	height: 55px;
+}
+.recherche {
+	position: absolute;
+	top: 8px;
+	left: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 246.69px;
+	height: 39px;
+}
+.rectangle-group {
+	position: relative;
+	width: 541px;
+	height: 55px;
+}
+.bootstrapreal-worldbook-icon {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.morceaux {
+	position: absolute;
+	top: 176px;
+	left: 63px;
+	font-size: var(--font-size-45xl);
+}
+.resultat-recherche-parent {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1437px;
+	height: 941px;
+}
+.resultat-recherche {
+	position: relative;
+	width: 100%;
+	height: 941px;
+	text-align: center;
+	font-size: var(--artiste-size);
+	color: var(--color-white);
+	font-family: var(--artiste);
+}

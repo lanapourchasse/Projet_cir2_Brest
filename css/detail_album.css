@@ -1,291 +1,280 @@
-
-body 
-{
-  margin: 0;
-  padding: 0;
-  background-color:#B4C5CB;
+.album-child {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: var(--color-silver);
+	width: 1436px;
+	height: 941px;
+}
+.genre-musical {
+	position: absolute;
+	top: 52px;
+	left: 47px;
+}
+.jour {
+	position: relative;
+}
+.span {
+	font-size: var(--font-size-xl);
+	color: var(--color-darkslategray);
+}
+.mois {
+	position: relative;
+	color: var(--color-white);
+}
+.anne {
+	position: relative;
+	color: #feffff;
+}
+.date {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: var(--gap-12xl);
+	color: #fcfeff;
+	font-family: var(--font-linden-hill);
+}
+.genre-musical-parent {
+	position: absolute;
+	top: 176px;
+	left: 1043px;
+	width: 296px;
+	height: 91px;
+}
+.artiste27 {
+	position: absolute;
+	top: 112px;
+	left: 188px;
+}
+.titre12 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 339px;
+	height: 117px;
+}
+.artiste-parent1 {
+	position: absolute;
+	top: 150px;
+	left: 31px;
+	width: 360px;
+	height: 170px;
+	font-size: var(--font-size-29xl);
+}
+.logo-child3 {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
 }
 
+.group-child3 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: var(--br-xl);
+	background-color: var(--color-silver);
+	width: 276px;
+	height: 50px;
+}
 
-.album-child {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: var(--color-silver);
-    width: 1436px;
-    height: 941px;
-  }
-  .genre-musical {
-    position: absolute;
-    top: 52px;
-    left: 47px;
-  }
-  .jour {
-    position: relative;
-  }
-  .span {
-    font-size: var(--font-size-xl);
-    color: var(--color-darkslategray);
-  }
-  .mois {
-    position: relative;
-    color: var(--color-white);
-  }
-  .anne {
-    position: relative;
-    color: #feffff;
-  }
-  .date {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-12xl);
-    color: #fcfeff;
-    font-family: var(--font-linden-hill);
-  }
-  .genre-musical-parent {
-    position: absolute;
-    top: 176px;
-    left: 1043px;
-    width: 296px;
-    height: 91px;
-  }
-  .artiste27 {
-    position: absolute;
-    top: 112px;
-    left: 188px;
-  }
-  .titre12 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    font-size: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 339px;
-    height: 117px;
-  }
-  .artiste-parent1 {
-    position: absolute;
-    top: 150px;
-    left: 31px;
-    width: 360px;
-    height: 170px;
-    font-size: var(--font-size-29xl);
-  }
-  .logo-child3 {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-  }
-  
-  .group-child3 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: var(--br-xl);
-    background-color: var(--color-silver);
-    width: 276px;
-    height: 50px;
-  }
-  
-  .rectangle-parent3 {
-    position: relative;
-    width: 276px;
-    height: 51px;
-    cursor: pointer;
-  }
-  .design-sans-titre-15 {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-  }
-  
+.rectangle-parent3 {
+	position: relative;
+	width: 276px;
+	height: 51px;
+	cursor: pointer;
+}
+.design-sans-titre-15 {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
 
-  .header-princ-child2 {
-    position: relative;
-    width: 45px;
-    height: 45px;
-    object-fit: cover;
-  }
-  .group-child4 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: var(--br-xl);
-    background-color: var(--color-darkgray);
-    width: 541px;
-    height: 55px;
-  }
+.header-princ-child2 {
+	position: relative;
+	width: 45px;
+	height: 45px;
+	object-fit: cover;
+}
+.group-child4 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: var(--br-xl);
+	background-color: var(--color-darkgray);
+	width: 541px;
+	height: 55px;
+}
 
-  .rectangle-parent4 {
-    position: relative;
-    width: 541px;
-    height: 55px;
-  }
-  .bootstrapreal-worldbook-icon2 {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-  }
-  
-  .qualf-1-icon2 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
-  }
-  .qualf-11 {
-    position: absolute;
-    top: 155px;
-    left: 594px;
-    width: 278px;
-    height: 265px;
-    cursor: pointer;
-  }
-  .affichage-1-morceau-child4 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    background-color: var(--color-white);
-  }
-  .bootstrapmediasoundwave-icon6 {
-    position: absolute;
-    height: 100%;
-    width: 5.42%;
-    top: 0%;
-    right: 91.88%;
-    bottom: 0%;
-    left: 2.71%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .titre13 {
-    position: absolute;
-    height: 67.19%;
-    width: 11.15%;
-    top: 23.44%;
-    left: 16.45%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .i6 {
-    position: absolute;
-    height: 67.19%;
-    width: 13.53%;
-    top: 14.06%;
-    left: 81.54%;
-    display: flex;
-    color: var(--color-silver);
-    align-items: center;
-    justify-content: center;
-  }
-  .affichage-1-morceau6 {
-    position: absolute;
-    height: 24.39%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 75.61%;
-    left: 0%;
-    cursor: pointer;
-  }
-  .affichage-1-morceau-child5 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    background-color: var(--color-white);
-    cursor: pointer;
-  }
-  .affichage-1-morceau7 {
-    position: absolute;
-    height: 24.39%;
-    width: 100%;
-    top: 37.8%;
-    right: 0%;
-    bottom: 37.8%;
-    left: 0%;
-    cursor: pointer;
-  }
-  .affichage-1-morceau8 {
-    position: absolute;
-    height: 24.39%;
-    width: 100%;
-    top: 75.61%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    cursor: pointer;
-  }
-  .liste-morceaux2 {
-    position: absolute;
-    top: 544px;
-    left: 187px;
-    width: 1092px;
-    height: 225px;
-    color: var(--color-lightblue);
-    font-family: var(--font-linden-hill);
-  }
-  .play-icon {
-    position: absolute;
-    top: 545px;
-    left: 1215px;
-    width: 50px;
-    height: 50px;
-  }
-  .play-icon1 {
-    position: absolute;
-    top: 719px;
-    left: 1215px;
-    width: 50px;
-    height: 50px;
-  }
-  .play-icon2 {
-    position: absolute;
-    top: 632px;
-    left: 1215px;
-    width: 50px;
-    height: 50px;
-  }
-  .album1 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1437px;
-    height: 941px;
-  }
-  .detail-album {
-    position: relative;
-    width: 100%;
-    height: 941px;
-    text-align: center;
-    font-size: var(--artiste-size);
-    color: var(--color-white);
-    font-family: var(--artiste);
-  }
-  
+.rectangle-parent4 {
+	position: relative;
+	width: 541px;
+	height: 55px;
+}
+.bootstrapreal-worldbook-icon2 {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.qualf-1-icon2 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+	object-fit: cover;
+}
+.qualf-11 {
+	position: absolute;
+	top: 155px;
+	left: 594px;
+	width: 278px;
+	height: 265px;
+	cursor: pointer;
+}
+.affichage-1-morceau-child4 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	background-color: var(--color-white);
+}
+.bootstrapmediasoundwave-icon6 {
+	position: absolute;
+	height: 100%;
+	width: 5.42%;
+	top: 0%;
+	right: 91.88%;
+	bottom: 0%;
+	left: 2.71%;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+}
+.titre13 {
+	position: absolute;
+	height: 67.19%;
+	width: 11.15%;
+	top: 23.44%;
+	left: 16.45%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.i6 {
+	position: absolute;
+	height: 67.19%;
+	width: 13.53%;
+	top: 14.06%;
+	left: 81.54%;
+	display: flex;
+	color: var(--color-silver);
+	align-items: center;
+	justify-content: center;
+}
+.affichage-1-morceau6 {
+	position: absolute;
+	height: 24.39%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 75.61%;
+	left: 0%;
+	cursor: pointer;
+}
+.affichage-1-morceau-child5 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	background-color: var(--color-white);
+	cursor: pointer;
+}
+.affichage-1-morceau7 {
+	position: absolute;
+	height: 24.39%;
+	width: 100%;
+	top: 37.8%;
+	right: 0%;
+	bottom: 37.8%;
+	left: 0%;
+	cursor: pointer;
+}
+.affichage-1-morceau8 {
+	position: absolute;
+	height: 24.39%;
+	width: 100%;
+	top: 75.61%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	cursor: pointer;
+}
+.liste-morceaux2 {
+	position: absolute;
+	top: 544px;
+	left: 187px;
+	width: 1092px;
+	height: 225px;
+	color: var(--color-lightblue);
+	font-family: var(--font-linden-hill);
+}
+.play-icon {
+	position: absolute;
+	top: 545px;
+	left: 1215px;
+	width: 50px;
+	height: 50px;
+}
+.play-icon1 {
+	position: absolute;
+	top: 719px;
+	left: 1215px;
+	width: 50px;
+	height: 50px;
+}
+.play-icon2 {
+	position: absolute;
+	top: 632px;
+	left: 1215px;
+	width: 50px;
+	height: 50px;
+}
+.album1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1437px;
+	height: 941px;
+}
+.detail-album {
+	position: relative;
+	width: 100%;
+	height: 941px;
+	text-align: center;
+	font-size: var(--artiste-size);
+	color: var(--color-white);
+	font-family: var(--artiste);
+}

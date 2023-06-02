@@ -1,266 +1,256 @@
-
-body 
-{
-  margin: 0;
-  padding: 0;
-  background-color:#B4C5CB;
-}
-
-
 .group-child35 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: var(--color-silver);
-    width: 1436px;
-    height: 941px;
-  }
-  .design-sans-titre-117 {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-  }
-  .logo43 {
-    background-color: var(--color-snow-100);
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .logo42 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    cursor: pointer;
-  }
-  .header-princ-child14 {
-    position: relative;
-    width: 45px;
-    height: 45px;
-    object-fit: cover;
-  }
-  .group-child36 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: var(--br-xl);
-    background-color: var(--color-darkgray);
-    width: 541px;
-    height: 55px;
-  }
-  .recherche8 {
-    position: absolute;
-    top: 8px;
-    left: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 246.69px;
-    height: 39px;
-  }
-  .rectangle-parent22 {
-    position: relative;
-    width: 541px;
-    height: 55px;
-  }
-  .header-princ-child15 {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-  }
-  .bootstrapreal-worldbook-icon8 {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-  }
-  .header-princ8 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: var(--color-white);
-    width: 1436px;
-    height: 121px;
-    display: flex;
-    flex-direction: row;
-    padding: 0px var(--padding-43xl);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-71xl);
-    font-family: var(--font-gill-sans-mt-condensed);
-  }
-  .logo44 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-xl);
-  }
-  .group-child37 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: var(--br-xl);
-    background-color: var(--color-silver);
-    width: 276px;
-    height: 50px;
-  }
-  .retour8 {
-    position: absolute;
-    top: 0px;
-    left: 99px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75px;
-    height: 51px;
-  }
-  .rectangle-parent23 {
-    position: relative;
-    width: 276px;
-    height: 51px;
-    cursor: pointer;
-  }
-  .logo45 {
-    width: 87px;
-    height: 75px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-  .footer8 {
-    position: absolute;
-    top: 841px;
-    left: 0px;
-    background-color: var(--color-white);
-    width: 1437px;
-    height: 94px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding-9xs) 0px var(--padding-9xs) var(--padding-lgi);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-375xl);
-    font-size: var(--font-size-xl);
-  }
-  .adressse-mail1 {
-    position: absolute;
-    top: 346px;
-    left: 82px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 479px;
-    height: 105px;
-  }
-  .connexion1 {
-    position: absolute;
-    top: 169px;
-    left: 417px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 639px;
-    height: 127px;
-  }
-  .mot-de-passe2 {
-    position: absolute;
-    top: 471px;
-    left: 199px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 256px;
-    height: 65px;
-  }
-  .group-child38 {
-    position: absolute;
-    top: 483px;
-    left: 561px;
-    background-color: var(--color-gainsboro);
-    width: 522px;
-    height: 42px;
-  }
-  .group-child39 {
-    position: absolute;
-    top: 378px;
-    left: 561px;
-    background-color: var(--color-gainsboro);
-    width: 522px;
-    height: 42px;
-  }
-  .group-child40 {
-    position: absolute;
-    top: 600px;
-    left: 610px;
-    border-radius: var(--br-xl);
-    background-color: var(--color-gainsboro);
-    width: 259px;
-    height: 48px;
-  }
-  .connexion2 {
-    position: absolute;
-    top: 612px;
-    left: 622px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 217px;
-    height: 24px;
-    cursor: pointer;
-  }
-  .vous-navez-pas {
-    position: absolute;
-    top: 710px;
-    left: 228px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 542px;
-    height: 68px;
-  }
-  .group-child41 {
-    position: absolute;
-    top: 723px;
-    left: 805px;
-    background-color: var(--color-gainsboro);
-    width: 261px;
-    height: 34px;
-  }
-  .inscription3 {
-    position: absolute;
-    top: 721px;
-    left: 828px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 214px;
-    height: 34px;
-    cursor: pointer;
-  }
-  .rectangle-parent21 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1437px;
-    height: 941px;
-  }
-  .connexion {
-    position: relative;
-    width: 100%;
-    height: 941px;
-    text-align: center;
-    font-size: var(--artiste-size);
-    color: var(--color-white);
-    font-family: var(--artiste);
-  }
-  
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: var(--color-silver);
+	width: 1436px;
+	height: 941px;
+}
+.design-sans-titre-117 {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+.logo43 {
+	background-color: var(--color-snow-100);
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.logo42 {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	cursor: pointer;
+}
+.header-princ-child14 {
+	position: relative;
+	width: 45px;
+	height: 45px;
+	object-fit: cover;
+}
+.group-child36 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: var(--br-xl);
+	background-color: var(--color-darkgray);
+	width: 541px;
+	height: 55px;
+}
+.recherche8 {
+	position: absolute;
+	top: 8px;
+	left: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 246.69px;
+	height: 39px;
+}
+.rectangle-parent22 {
+	position: relative;
+	width: 541px;
+	height: 55px;
+}
+.header-princ-child15 {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+}
+.bootstrapreal-worldbook-icon8 {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.header-princ8 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: var(--color-white);
+	width: 1436px;
+	height: 121px;
+	display: flex;
+	flex-direction: row;
+	padding: 0px var(--padding-43xl);
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: flex-start;
+	gap: var(--gap-71xl);
+	font-family: var(--font-gill-sans-mt-condensed);
+}
+.logo44 {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: var(--gap-xl);
+}
+.group-child37 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: var(--br-xl);
+	background-color: var(--color-silver);
+	width: 276px;
+	height: 50px;
+}
+.retour8 {
+	position: absolute;
+	top: 0px;
+	left: 99px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 75px;
+	height: 51px;
+}
+.rectangle-parent23 {
+	position: relative;
+	width: 276px;
+	height: 51px;
+	cursor: pointer;
+}
+.logo45 {
+	width: 87px;
+	height: 75px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.footer8 {
+	position: absolute;
+	top: 841px;
+	left: 0px;
+	background-color: var(--color-white);
+	width: 1437px;
+	height: 94px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	padding: var(--padding-9xs) 0px var(--padding-9xs) var(--padding-lgi);
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: flex-start;
+	gap: var(--gap-375xl);
+	font-size: var(--font-size-xl);
+}
+.adressse-mail1 {
+	position: absolute;
+	top: 346px;
+	left: 82px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 479px;
+	height: 105px;
+}
+.connexion1 {
+	position: absolute;
+	top: 169px;
+	left: 417px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 639px;
+	height: 127px;
+}
+.mot-de-passe2 {
+	position: absolute;
+	top: 471px;
+	left: 199px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 256px;
+	height: 65px;
+}
+.group-child38 {
+	position: absolute;
+	top: 483px;
+	left: 561px;
+	background-color: var(--color-gainsboro);
+	width: 522px;
+	height: 42px;
+}
+.group-child39 {
+	position: absolute;
+	top: 378px;
+	left: 561px;
+	background-color: var(--color-gainsboro);
+	width: 522px;
+	height: 42px;
+}
+.group-child40 {
+	position: absolute;
+	top: 600px;
+	left: 610px;
+	border-radius: var(--br-xl);
+	background-color: var(--color-gainsboro);
+	width: 259px;
+	height: 48px;
+}
+.connexion2 {
+	position: absolute;
+	top: 612px;
+	left: 622px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 217px;
+	height: 24px;
+	cursor: pointer;
+}
+.vous-navez-pas {
+	position: absolute;
+	top: 710px;
+	left: 228px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 542px;
+	height: 68px;
+}
+.group-child41 {
+	position: absolute;
+	top: 723px;
+	left: 805px;
+	background-color: var(--color-gainsboro);
+	width: 261px;
+	height: 34px;
+}
+.inscription3 {
+	position: absolute;
+	top: 721px;
+	left: 828px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 214px;
+	height: 34px;
+	cursor: pointer;
+}
+.rectangle-parent21 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1437px;
+	height: 941px;
+}
+.connexion {
+	position: relative;
+	width: 100%;
+	height: 941px;
+	text-align: center;
+	font-size: var(--artiste-size);
+	color: var(--color-white);
+	font-family: var(--artiste);
+}

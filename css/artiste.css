@@ -1,141 +1,132 @@
-body 
-{
-  margin: 0;
-  padding: 0;
-  background-color:#B4C5CB;
+.fiche-artiste-child {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: var(--color-silver);
+	width: 1436px;
+	height: 941px;
 }
 
-
-.fiche-artiste-child {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: var(--color-silver);
-    width: 1436px;
-    height: 941px;
-  }
-  
-  .nom-de-lartiste {
-    position: absolute;
-    top: 18.7%;
-    left: 4.38%;
-    font-size: 40px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .genre-musical1 {
-    position: absolute;
-    top: 19.23%;
-    left: 72.16%;
-    font-size: var(--artiste-size);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .qualf-1-icon3 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
-  }
-  .qualf-12 {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    cursor: pointer;
-  }
-  .artiste29 {
-    position: relative;
-  }
-  .description2 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .playlist2 {
-    position: absolute;
-    top: 16px;
-    left: 265px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: var(--gap-3xs);
-    cursor: pointer;
-  }
-  .playlist3 {
-    position: absolute;
-    top: 18px;
-    left: 745px;
-    width: 98px;
-    height: 162px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: var(--gap-3xs);
-    cursor: pointer;
-  }
-  .playlist4 {
-    position: absolute;
-    top: 16px;
-    left: 505px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: var(--gap-3xs);
-    cursor: pointer;
-  }
-  .playlist5 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 125px;
-    height: 195px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: var(--gap-3xs);
-    cursor: pointer;
-  }
-  .playlist-parent {
-    position: absolute;
-    top: 306px;
-    left: 296px;
-    width: 843px;
-    height: 195px;
-    font-family: var(--font-linden-hill);
-  }
-  .playlist-group {
-    position: absolute;
-    top: 550px;
-    left: 296px;
-    width: 843px;
-    height: 195px;
-    font-family: var(--font-linden-hill);
-  }
-  .fiche-artiste {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1437px;
-    height: 941px;
-  }
-  .artiste28 {
-    position: relative;
-    width: 100%;
-    height: 941px;
-    text-align: center;
-    font-size: var(--font-size-xl);
-    color: var(--color-white);
-    font-family: var(--artiste);
-  }
-  
+.nom-de-lartiste {
+	position: absolute;
+	top: 18.7%;
+	left: 4.38%;
+	font-size: 40px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.genre-musical1 {
+	position: absolute;
+	top: 19.23%;
+	left: 72.16%;
+	font-size: var(--artiste-size);
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.qualf-1-icon3 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+	object-fit: cover;
+}
+.qualf-12 {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+}
+.artiste29 {
+	position: relative;
+}
+.description2 {
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.playlist2 {
+	position: absolute;
+	top: 16px;
+	left: 265px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: var(--gap-3xs);
+	cursor: pointer;
+}
+.playlist3 {
+	position: absolute;
+	top: 18px;
+	left: 745px;
+	width: 98px;
+	height: 162px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: var(--gap-3xs);
+	cursor: pointer;
+}
+.playlist4 {
+	position: absolute;
+	top: 16px;
+	left: 505px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: var(--gap-3xs);
+	cursor: pointer;
+}
+.playlist5 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 125px;
+	height: 195px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: var(--gap-3xs);
+	cursor: pointer;
+}
+.playlist-parent {
+	position: absolute;
+	top: 306px;
+	left: 296px;
+	width: 843px;
+	height: 195px;
+	font-family: var(--font-linden-hill);
+}
+.playlist-group {
+	position: absolute;
+	top: 550px;
+	left: 296px;
+	width: 843px;
+	height: 195px;
+	font-family: var(--font-linden-hill);
+}
+.fiche-artiste {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1437px;
+	height: 941px;
+}
+.artiste28 {
+	position: relative;
+	width: 100%;
+	height: 941px;
+	text-align: center;
+	font-size: var(--font-size-xl);
+	color: var(--color-white);
+	font-family: var(--artiste);
+}
