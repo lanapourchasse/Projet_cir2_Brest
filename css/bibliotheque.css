@@ -1,367 +1,79 @@
 
-body 
-{
-  margin: 0;
-  padding: 0;
-  background-color:#B4C5CB;
-}
-
-
-#ligne
-{
-
-  columns: 2;
-  column-gap: 10px;
-
-
-}
-
-
-.bibliothque-child {
-    position: absolute;
-    height: 99.79%;
-    width: 99.93%;
-    top: 0%;
-    right: 0.07%;
-    bottom: 0.21%;
-    left: 0%;
-    background-color: var(--color-silver);
-  }
-  .playlist-forme-longue-child4 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    background-color: var(--color-white);
-  }
-  .font-awesome-freebrandsoundc10 {
-    position: absolute;
-    height: 90.91%;
-    width: 4.58%;
-    top: 0%;
-    right: 93.5%;
-    bottom: 9.09%;
-    left: 1.92%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .artiste43 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    left: 0%;
+  
+  .playlist {
     display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .titre37 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    cursor: pointer;
-  }
-  .titre36 {
-    position: absolute;
-    height: 49.09%;
-    width: 5.4%;
-    top: 25.45%;
-    right: 88.1%;
-    bottom: 25.45%;
-    left: 6.5%;
-  }
-  .jour7 {
-    position: relative;
-  }
-  .date7 {
-    position: absolute;
-    height: 49.09%;
-    width: 16.67%;
-    top: 25.45%;
-    right: 3.3%;
-    bottom: 25.45%;
-    left: 80.04%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-12xl);
-  }
-  .playlist-forme-longue12 {
-    position: absolute;
-    height: 5.83%;
-    width: 75.99%;
-    top: 27.36%;
-    right: 16.49%;
-    bottom: 66.81%;
-    left: 7.52%;
-  }
-  .playlist-forme-longue14 {
-    position: absolute;
-    height: 5.83%;
-    width: 75.99%;
-    top: 35.63%;
-    right: 16.49%;
-    bottom: 58.54%;
-    left: 7.52%;
-  }
-  .playlist-forme-longue16 {
-    position: absolute;
-    height: 5.83%;
-    width: 75.99%;
-    top: 43.9%;
-    right: 16.49%;
-    bottom: 50.27%;
-    left: 7.52%;
-  }
-  .group-icon {
-    position: absolute;
-    height: 22.48%;
-    width: 4.18%;
-    top: 27.36%;
-    right: 8.14%;
-    bottom: 50.16%;
-    left: 87.68%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .playlist-forme-longue18 {
-    position: absolute;
-    height: 5.83%;
-    width: 75.99%;
-    top: 52.28%;
-    right: 16.49%;
-    bottom: 41.89%;
-    left: 7.52%;
-  }
-  .playlist-forme-longue20 {
-    position: absolute;
-    height: 5.83%;
-    width: 75.99%;
-    top: 60.55%;
-    right: 16.49%;
-    bottom: 33.62%;
-    left: 7.52%;
-  }
-  .playlist-forme-longue22 {
-    position: absolute;
-    height: 5.83%;
-    width: 75.99%;
-    top: 68.82%;
-    right: 16.49%;
-    bottom: 25.34%;
-    left: 7.52%;
-  }
-  .group-child14 {
-    position: absolute;
-    height: 22.48%;
-    width: 4.18%;
-    top: 52.28%;
-    right: 8.14%;
-    bottom: 25.24%;
-    left: 87.68%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .logo-child12 {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-  }
-  .logo27 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-xl);
-  }
-  .group-child15 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: var(--br-xl);
-    background-color: var(--color-silver);
-    width: 276px;
-    height: 50px;
-  }
-  .retour5 {
-    position: absolute;
-    top: 0px;
-    left: 99px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75px;
-    height: 51px;
-  }
-  .rectangle-parent13 {
-    position: relative;
-    width: 276px;
-    height: 51px;
-    cursor: pointer;
-  }
-  .design-sans-titre-111 {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-  }
-  .logo29 {
-    background-color: var(--color-snow-100);
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .logo28 {
-    width: 87px;
-    height: 75px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-  .footer5 {
-    position: absolute;
-    height: 9.97%;
-    width: 100%;
-    top: 90.03%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    background-color: var(--color-white);
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding-9xs) 0px var(--padding-9xs) var(--padding-lgi);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-375xl);
-    color: var(--color-white);
-    font-family: var(--artiste);
-  }
-  .logo30 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    cursor: pointer;
-  }
-  .header-princ-child8 {
-    position: relative;
-    width: 45px;
-    height: 45px;
-    object-fit: cover;
-  }
-  .group-child16 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: var(--br-xl);
-    background-color: var(--color-darkgray);
-    width: 541px;
-    height: 55px;
-  }
-  .recherche5 {
-    position: absolute;
-    top: 8px;
-    left: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 246.69px;
-    height: 39px;
-  }
-  .rectangle-parent14 {
-    position: relative;
-    width: 541px;
-    height: 55px;
-  }
-  .bootstrapreal-worldbook-icon5 {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-  }
-  .header-princ5 {
-    position: absolute;
-    height: 10.6%;
-    width: 99.93%;
-    top: 0%;
-    right: 0.07%;
-    bottom: 89.4%;
-    left: 0%;
-    background-color: var(--color-white);
-    display: flex;
-    flex-direction: row;
-    padding: 0px var(--padding-43xl);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-71xl);
-    font-size: var(--artiste-size);
-    color: var(--color-white);
-    font-family: var(--font-gill-sans-mt-condensed);
-  }
-  .bibliothque1 {
-    position: absolute;
-    top: 17.39%;
-    left: 2.85%;
-    font-size: var(--artiste-size);
-    font-family: var(--artiste);
-    color: var(--color-white);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .font-awesome-freesolidfolder {
-    position: absolute;
-    height: 7.42%;
-    width: 4.87%;
-    top: 14.63%;
-    right: 7.79%;
-    bottom: 77.94%;
-    left: 87.33%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    cursor: pointer;
-  }
-  .playlist-forme-longue-parent {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-  }
-  .bibliothque {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1437px;
-    height: 943px;
-  }
-  .bibliotheque {
-    position: relative;
-    width: 100%;
-    height: 943px;
-    text-align: center;
-    font-size: var(--font-size-xl);
-    color: var(--color-darkslategray);
-    font-family: var(--font-linden-hill);
+    flex-wrap: wrap;
   }
   
+  .le_son {
+    flex-basis: 85%; 
+      box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .moins
+  {
+    margin-top: 30px;
+    height: 7vh;
+    width: 2vw;
+  }
+  
+
+  
+  .element {
+    padding: 10px;
+    width: 3rem;
+   
+  }
+  
+  
+  
+  
+  .rectangle {
+      background-color: #fff;
+      border: 1px solid #000;
+      padding: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 2rem;
+    }
+  
+    .rectangle-img{
+      width: 3rem;
+      margin-right: 50px;
+    }
+    .rectangle-info{
+      flex: 1;
+      margin-right: 10px;
+    
+    }
+  
+    @media screen and (max-width: 600px) {
+      .rectangle {
+        flex-wrap: wrap;
+      }
+  
+      .rectangle-info {
+        flex: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      .rectangle-img{
+        width: 3rem;
+        margin-right: 0;
+        margin-left: 45%;
+      }
+  
+      .moins
+  {
+    margin-top: 0px;
+  
+    height: 7vh;
+    width: 7vw;
+  }
+  
+  
+    }
