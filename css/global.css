@@ -1,50 +1,162 @@
-body {
-    margin: 0;
-    line-height: normal;
+a{
+  text-decoration: none;
+  color: #e328b8;;
+}
+
+body{
+    margin:0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color:#B4C5CB;
+    color: #e328b8;;
+    
   }
   
-  :root {
-    /* fonts */
-    --font-linden-hill: "Linden Hill";
-    --artiste: Limelight;
-    --font-gill-sans-mt-condensed: "Gill Sans MT Condensed";
   
-    /* font sizes */
-    --font-size-xl: 20px;
-    --artiste-size: 32px;
-    --font-size-45xl: 64px;
-    --font-size-29xl: 48px;
+  header {
+      background-color: #f7f7f7;
+      padding: 2px;
   
-    /* Colors */
-    --color-silver: #b4c5cb;
-    --color-white: #fff;
-    --color-gray-100: #fffefe;
-    --color-gray-200: #0b0b0b;
-    --color-gray-300: #120202;
-    --color-snow-100: #fdfafa;
-    --color-snow-200: #fcfafa;
-    --color-snow-300: #fff8f8;
-    --color-darkgray: #a2acac;
-    --color-lightblue: #a3bfc9;
-    --color-darkslategray: #095874;
-    --color-gainsboro: #d9d9d9;
+      display: flex;
+      flex-wrap: wrap;
+      gap:10vw;
   
-    /* Gaps */
-    --gap-3xs: 10px;
-    --gap-71xl: 90px;
-    --gap-375xl: 394px;
-    --gap-xl: 20px;
-    --gap-12xl: 31px;
-    --gap-4xl: 23px;
+    }
   
-    /* Paddings */
-    --padding-43xl: 62px;
-    --padding-9xs: 4px;
-    --padding-lgi: 19px;
+  .recherche
+  {
+    padding-top: 10px;
+    width:30vw;
+    border-radius: 2vw;
   
-    /* border radiuses */
-    --br-5xs: 8px;
-    --br-xl: 20px;
-    --br-13xl: 32px;
+  }
+  .logo
+  {
+    padding-top: 1vh; 
+    width:4vw;
   }
   
+  
+  .icon
+  {
+    padding-top: 1rem;
+    width:2vw
+  }
+  
+
+  
+
+
+
+  footer {
+    background-color: #f7f6f6;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  
+  
+
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap : 25vw;
+    
+  
+  }
+  
+  
+  .reseau
+  {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 15vw;
+  }
+  .reseau img
+  {
+    width:3.5rem;
+  
+  }
+  
+  .bouton-retour
+  {
+    width:15vw;
+    background-color: #B4C5CB;
+    border-radius: 2rem;
+    color: #333;
+    text-align: center;
+
+  
+  }
+  
+  .container .logo{
+  
+    padding-top: 0;
+    width:4vw;
+  
+  }
+  
+
+
+
+    
+    /* Styles pour les grands écrans */
+    @media screen and (min-width: 768px) {
+      header {
+        padding: 2px;
+      }
+    
+      nav ul {
+        display: flex;
+        justify-content: space-between;
+      }
+    
+      nav li {
+        margin-right: 20px;
+      }
+    }
+    
+    /* Styles pour les petits écrans */
+    @media screen and (max-width: 767px) {
+      nav ul {
+        display: block;
+        text-align: center;
+      }
+    
+      nav li {
+        margin-bottom: 10px;
+      }
+    }
+    
+
+       
+    /* Styles pour les grands écrans */
+    @media screen and (min-width: 768px) {
+        header {
+          padding: 2px;
+        }
+      
+        nav ul {
+          display: flex;
+          justify-content: space-between;
+        }
+      
+        nav li {
+          margin-right: 20px;
+        }
+      }
+      
+      /* Styles pour les petits écrans */
+      @media screen and (max-width: 767px) {
+        nav ul {
+          display: block;
+          text-align: center;
+        }
+      
+        nav li {
+          margin-bottom: 10px;
+        }
+      }
+      
