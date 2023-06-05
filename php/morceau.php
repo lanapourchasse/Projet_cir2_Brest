@@ -8,16 +8,20 @@ class Morceau
 
     private $duree;
 
-    private $lien;
+    private $lien_musique;
 
-    private $artiste;
+    private $Titre_album;
 
-    private $album;
+    private $id;
+
+    private $nom;
+
+
 
     public function affiche()
     {
 
-        echo"Titre : $this->titre ,  Durée : $this->duree ,  Lien : $this->lien , Artiste : $this->artiste , Album : $this->album";
+        echo"Titre : $this->titre ,  Durée : $this->duree ,  Lien : $this->lien_musique , Artiste : $this->nom;, Album : $this->Titre_album";
 
     }
 

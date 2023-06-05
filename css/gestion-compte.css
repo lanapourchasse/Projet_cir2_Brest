@@ -1,0 +1,28 @@
+
+  .container-a{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .container-a input[type="text"] {
+    margin-bottom: 10px;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .container-a button {
+    flex-shrink: 0;
+    margin-left: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container-a input[type="text"] {
+      flex-basis: 100%;
+    }
+    
+    .container-a button {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }

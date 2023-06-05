@@ -8,10 +8,9 @@ class Artiste
 
     private $id;
 
-
     public function affiche()
     {
-        echo "NOM : $this->nom <br> ID: $this->id <br>"; 
+        echo "NOM : $this->nom  ID: $this->id <br>"; 
     }
 
     public function return_Nom()
