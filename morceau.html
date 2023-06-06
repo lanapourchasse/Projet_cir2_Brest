@@ -1,64 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <link rel="stylesheet" href="css/global.css" />
-    <link rel="stylesheet" href="css/morceau.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Linden Hill:ital,wght@0,400;1,400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Limelight:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Gill Sans MT Condensed:wght@400&display=swap"
-    />
-  </head>
-  <body>
-    <div class="morceau1">
-      <div class="morceau-inner">
-        <div class="morceau-inner">
-          <div class="rectangle-parent27">
-            <div class="group-child46"></div>
-            <img
-              class="bootstrapshapesheart-icon1"
-              alt=""
-              src="img/heart.png"
-              id="bootstrapShapesheartIcon"
-            />
+    <head>
+            <meta charset="utf-8">
+            <title>Morceau</title>
+            <link rel="stylesheet" type="text/css" href="css/morceau.css">  
+            <link rel="stylesheet" type="text/css" href="css/global.css">  
+            <script src="js/global.js"></script>
+            <script src="js/ajax.js"></script>   
+            <script src="js/morceau.js"></script> 
+    </head>
+    
+    
+    <body class="all">
 
-            <img class="play-icon3" alt="" src="img/play.png" />
-          </div>
-          <div class="titre56">
-            <div class="titre57" id="titreContainer">
-              <div class="artiste50">Titre</div>
-            </div>
-          </div>
-          <div class="titre58" id="titreContainer3">
-            <div class="titre57" id="titreContainer2">
-              <div class="artiste50">Artiste</div>
-            </div>
-          </div>
-          <div class="dure">Durée</div>
-          <div class="qualf-110" id="qualf1Container">
-            <img class="qualf-1-icon11" alt="" src="img/1.png" />
-          </div>
-            <img class="pngwing-2-icon" alt="" src="img/wavesound.png"/>
+        <header>  
+            <a href="accueil.html"> <img class="logo"src="img/logo.png"> </a>
+            <a href="#"> <img class="icon"src="img/filtre.png"> </a>
           
-        </div>
-      </div>
-      <img
-        class="morceau-child"
-        alt=""
-        src="img/ajouter.png"
-        
-        id="group"
-      />
-    </div>
+            <input type="text"  class="recherche" id="monChamp" placeholder="Recherche">
+            
+            <a href="#"> <img class="icon"src="img/loupe.png"> </a>
+            <a href="bibliotheque.html"> <img class="icon"src="img/bibliotheque.png"> </a>
+            <a href="gestion-compte.html"> <img class="icon"src="img/maison.png"> </a>
+      </header>
 
-  </body>
-</html>
+        <div class="partie_1">
+
+            <div class="container-a element ">
+                <h1 id="titre_morceau">Titre</h1>
+                <a href="artiste.html"><h2 id="artiste_morceau">Artiste</h2></a>
+                <h2 id="duree_morceau">00:00</h2>
+            </div>
+
+
+
+           <a href="playlist.html"> <img id="image_morceau" class = "element" src=""></a>
+
+        </div>
+
+        <img class= "wave" src="img/wavesound.png" >
+
+        <div class="partie_3">
+            <button onclick="openpopup_ajouter()"> <img src="img/ajouter.png"></button>
+            <button onclick="openpopup_play()"><img src="img/play.png"></button>
+            <button onclick="openpopup()"> <img src="img/heart.png"></button>
+        </div>
+
+
+
+          
+        <div class="popup-overlay">
+            <div class="popup-content">
+               <p> La musique a été ajouté à vos favoris</p>
+               <button  onclick="closepopup()" >Ok</button>
+
+           </div>
+       </div>
+
+
+       <div class="popup-overlay-ajouter">
+        <div class="popup-content-ajouter">
+
+           <p> A quelle playlist voulez vous l'ajouter ?</p>
+            
+            <div id = "list-playlist" class="playlist">
+                
+            </div>
+            <button  onclick="closepopup_ajouter()" >Annuler</button>
+        </div>
+       </div> 
+
+       <div class="popup-overlay_play">
+             <div class="popup-content_play">
+            
+                <audio id="myAudio" controls>
+                    <source src="" type="audio/wav">
+                    Votre navigateur ne prend pas en charge la lecture audio.
+                  </audio>
+                <button  onclick="closepopup_play()" > <img src="img/down.png"></button>
+              
+                <button onclick="openpopup()"> <img src="img/heart.png"></button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="container">
+            <div class="reseau">
+                  <img src = "img/insta.png" href="#">
+                  <img src = "img/facebook.png" href="#">
+                  <img src = "img/twitter.png" href="#">
+            </div>
+            <div class ="bouton-retour" onclick="scrollToTop()">Retour</div>
+            <a href="#"> <img class="logo"src="img/logo.png"> </a>
+            </div>
+          </footer>
+
+    </body>
+

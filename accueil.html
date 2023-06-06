@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="css/accueil.css">  
+            <link rel="stylesheet" type="text/css" href="css/global.css">
+
+            <script src="js/ajax.js" defer></script>
+            <script src="js/10morceaux.js" defer></script>
+            <script src="js/playlist.js" defer></script>
+            <script src="js/header.js" defer></script>
+    
+                
+            <title>Accueil</title>
+            
+    </head>
+    
+    
+    <body class="accueil_log">
+
+        <header>  
+            <a href="accueil.html"> <img class="logo"src="img/logo.png"> </a>
+            <div>
+                <form>
+                    <select id="type-select" class="icon" name="type-select">
+                        <option>artiste</option>
+                        <option>morceau</option>
+                        <option>album</option>
+                    </select>
+                    <!-- <img class="filtre" alt="" src="img/filtre.png"/> -->
+
+            </div>
+
+          
+                    <input type="text"  class="recherche" id="monChamp" placeholder="Recherche">
+                    <button id="search-button" class="icon" type="button">
+                        <img class="icon"src="img/loupe.png" >
+                    </button>
+                    
+                </form>
+            <a href="bibliotheque.html"> <img class="icon"src="img/bibliotheque.png"> </a>
+            <a href="gestion-compte.html"> <img class="icon"src="img/maison.png"> </a>
+      </header>
+
+
+
+        <div class = "layout_principal">
+            <div class = titre>
+                <h1 class = "text_playlist">Playlist</h1>
+                <h1 class = "text_playlist">Historique</h1>
+
+                </div>   
+            
+            <div class = "listes">
+                
+               <div class = "partie_droite"> 
+
+                    <div class = "container-a">
+
+                    
+                        <div class= "aff_playlist">
+                            <a href="playlist.html">
+                            <img  class ="img_playlist" src="img/1.png"  >
+                            <div class = "description">
+                                <!--<p class = "artiste_playlist"> Artiste</p>-->
+                                <p  class = "titre_playlist">Titre</p>    
+                            </div>
+                        </a>
+                        </div>
+
+                        <div class= "aff_playlist">
+                            <a href="playlist.html">
+                            <img  class ="img_playlist" src="img/1.png"  >
+                            <div class = "description">
+                                <!--<p class = "artiste_playlist"> Artiste</p>-->
+                                <p  class = "titre_playlist">Titre</p>    
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class= "aff_playlist">
+                            <a href="playlist.html">
+                            <img  class ="img_playlist" src="img/1.png"  >
+                            <div class = "description">
+                                <!--<p class = "artiste_playlist"> Artiste</p>-->
+                                <p  class = "titre_playlist">Titre</p>    
+                            </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+
+
+                <div id = "favoris">
+
+                    <h1 class ="text_favoris">Liste des <br>morceaux favoris</h1>
+ 
+                    <div class = "container-a">                   
+    
+                        <div class= "aff_playlist">
+                            <a href="playlist.html">
+                            <img  class ="img_playlist" src="img/2.png"  >
+                            <div class = "description">
+                                <p class = "artiste_playlist"> Artiste</p>
+                                <p  class = "titre_playlist">Titre</p>    
+                            </div>
+                            </a>
+                        </div>
+                    
+                    
+                          <div class= "aff_playlist">
+                            <a href="playlist.html">
+                                <img  class ="img_playlist" src="img/2.png"  >
+                                <div class = "description">
+                                    <p class = "artiste_playlist"> Artiste</p>
+                                    <p  class = "titre_playlist">Titre</p>    
+                                </div>
+                                </a>
+                        </div>
+
+                        <div class= "aff_playlist">
+                            <a href="playlist.html">
+                            <img  class ="img_playlist" src="img/2.png"  >
+                            <div class = "description">
+                                <p class = "artiste_playlist"> Artiste</p>
+                                <p  class = "titre_playlist">Titre</p>    
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div> 
+                
+                 
+                <div class = "historique">
+
+                    <a href="morceau.html">
+                    <div class="rectangle">
+                        <img  class ="rectangle-img" src="img/sound.png"  >
+                        <p class = "rectangle-info" ></p> Artiste</p>
+                        <p class = "rectangle-info"id="titre_morceau_0">Titre</p>                   
+                    </div>
+                    </a>
+                    <a href="morceau.html">
+                    <div class="rectangle">
+                        <img  class ="rectangle-img" src="img/sound.png"  >
+                        <p class = "rectangle-info"></p> Artiste</p>
+                        <p class = "rectangle-info"id="titre_morceau_1">Titre</p>                   
+                    </div>
+                    </a>
+                    <a href="morceau.html">
+                    <div class="rectangle">
+                        <img  class ="rectangle-img" src="img/sound.png"  >
+                        <p class = "rectangle-info"></p> Artiste</p>
+                        <p class = "rectangle-info"id="titre_morceau_2">Titre</p>                   
+                    </div>
+                    </a>
+                    <a href="morceau.html">
+                    <div class="rectangle">
+                        <img  class ="rectangle-img" src="img/sound.png"  >
+                        <p class = "rectangle-info"></p> Artiste</p>
+                        <p class = "rectangle-info"id="titre_morceau_3">Titre</p>                   
+                    </div>
+                    </a>
+                    <a href="morceau.html">
+                    <div class="rectangle">
+                        <img  class ="rectangle-img" src="img/sound.png"  >
+                        <p class = "rectangle-info"></p> Artiste</p>
+                        <p class = "rectangle-info"id="titre_morceau_4">Titre</p>                   
+                    </div>
+                    </a>
+                    <a href="morceau.html">
+                    <div class="rectangle">
+                        <img  class ="rectangle-img" src="img/sound.png"  >
+                        <p class = "rectangle-info"></p> Artiste</p>
+                        <p class = "rectangle-info"id="titre_morceau_5">Titre</p>                   
+                    </div>
+                    </a>
+                    <a href="morceau.html">
+                    <div class="rectangle">
+                        <img  class ="rectangle-img" src="img/sound.png"  >
+                        <p class = "rectangle-info"></p> Artiste</p>
+                        <p class = "rectangle-info"id="titre_morceau_6">Titre</p>                   
+                    </div>
+                    </a>
+                    <a href="morceau.html">
+                    <div class="rectangle">
+                        <img  class ="rectangle-img" src="img/sound.png"  >
+                        <p class = "rectangle-info"></p> Artiste</p>
+                        <p class = "rectangle-info"id="titre_morceau_7">Titre</p>                   
+                    </div>
+                    </a>
+                    <a href="morceau.html">
+                    <div class="rectangle">
+                        <img  class ="rectangle-img" src="img/sound.png"  >
+                        <p class = "rectangle-info"></p> Artiste</p>
+                        <p class = "rectangle-info"id="titre_morceau_8">Titre</p>                   
+                    </div>
+                    </a>
+                    <a href="morceau.html">
+                    <div class="rectangle">
+                        <img  class ="rectangle-img" src="img/sound.png"  >
+                        <p class = "rectangle-info"></p> Artiste</p>
+                        <p class = "rectangle-info"id="titre_morceau_9">Titre</p>                   
+                    </div>
+                    </a>
+                </div>
+</div>
+</div>
+
+
+
+    
+       
+       
+       
+        <footer>
+            <div class="container">
+            <div class="reseau">
+                  <img src = "img/insta.png" href="#">
+                  <img src = "img/facebook.png" href="#">
+                  <img src = "img/twitter.png" href="#">
+            </div>
+            <div class ="bouton-retour" onclick="scrollToTop()">Retour</div>
+            <a href="#"> <img class="logo"src="img/logo.png"> </a>
+            </div>
+          </footer>
+
+
+
+    </body>
+
+</html>

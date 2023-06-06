@@ -1,0 +1,97 @@
+
+  
+  .playlist {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .le_son {
+    flex-basis: 85%; 
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .heart
+  {
+    margin-top: 30px;
+    height: 5vw;
+    width: 5vw;
+  }
+  
+
+  
+  .element {
+    padding: 10px;
+    width: 3rem;
+   
+  }
+  
+  
+  
+  
+  .rectangle {
+      background-color: #fff;
+      border: 1px solid #000;
+      padding: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 2rem;
+    }
+  
+    .rectangle-img{
+      width: 3rem;
+      margin-right: 50px;
+    }
+    .rectangle-info{
+      flex: 1;
+      margin-right: 10px;
+    
+    }
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 600px) {
+      .rectangle {
+        flex-wrap: wrap;
+      }
+  
+      .rectangle-info {
+        flex: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      .rectangle-img{
+        width: 3rem;
+        margin-right: 0;
+        margin-left: 45%;
+      }
+  
+      .heart
+  {
+    margin-top: 0px; 
+    height: 7vh;
+    width: 7vw;
+  }
+  
+  
+    }

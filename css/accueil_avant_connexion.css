@@ -1,0 +1,37 @@
+
+
+.header_non_log
+{
+
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 40vw;
+    padding: 5vw;
+    margin: 10vw;
+    margin-left: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+img
+{
+
+    width:  5vw;
+}
+
+
+.Rectangle {
+    background-color: #B4C5CB;
+    border: 1px solid #000;
+    padding: 2vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+ 
+  }
