@@ -2,24 +2,74 @@
 <html>
     <head>
             <meta charset="utf-8">
-            <title>Accueil</title>
+            <title>Playlist</title>
             <link rel="stylesheet" type="text/css" href="css/playlist.css">
+            <link rel="stylesheet" type="text/css" href="css/global.css">
+            <script src="js/global.js"></script>
+            <script src="js/ajax.js"></script> 
+            <script src="js/playlist.js"></script> 
 
     </head>
     
     
     <body>
 
-        <h1> Titre</h1>
+        <header>  
+            <a href="accueil.html"> <img class="logo"src="img/logo.png"> </a>
+            <a href="#"> <img class="icon"src="img/filtre.png"> </a>
+          
+            <input type="text"  class="recherche" id="monChamp" placeholder="Recherche">
+            
+            <a href="#"> <img class="icon"src="img/loupe.png"> </a>
+            <a href="bibliotheque.html"> <img class="icon"src="img/bibliotheque.png"> </a>
+            <a href="gestion-compte.html"> <img class="icon"src="img/maison.png"> </a>
+      </header>
 
-        <h3>  Durée</h3>
+        <h1 id=titre> Titre</h1>
 
-        <div class="rectangle">
-            <img src="img/playliste.png" class="rectangle-info">
-            <p class="rectangle-info">Titre</p>
-            <p class="rectangle-info">00:00</p>
-        </div>
+        <!-- <h3>  Durée</h3> -->
 
-     
+        <div class="popup-overlay">
+            <div class="popup-content">
+               <p> La musique a été retiré de la playlist</p>
+               <button  onclick="closepopup()" >Ok</button>
 
+           </div>
+       </div>
+
+
+       <div class= "mise_en_page">
+        <!-- <div class="playlist">
+            
+            <div class="le_son">
+                <a href="morceau.html">
+                <div class="rectangle">  
+                    <img src="img/sound.png" class="rectangle-img ">
+                    <p class="rectangle-info">Titre</p>
+                    <p class="rectangle-info">00:00</p>
+                </div> 
+                </a>   
+            </div>
+        
+            <button onclick="openpopup()"><img src="img/moins.png" class="rectangle-img moins "></button>
+
+          
+        </div> -->
+    </div>
+        
+      
+       
+      
+        <footer>
+            <div class="container">
+            <div class="reseau">
+                  <img src = "img/insta.png" href="#">
+                  <img src = "img/facebook.png" href="#">
+                  <img src = "img/twitter.png" href="#">
+            </div>
+            <div class ="bouton-retour" onclick="scrollToTop()">Retour</div>
+            <a href="#"> <img class="logo"src="img/logo.png"> </a>
+            </div>
+          </footer>
+   
     </body>

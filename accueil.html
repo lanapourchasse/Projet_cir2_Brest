@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="css/accueil.css">  
+            <link rel="stylesheet" type="text/css" href="css/global.css">
+
+            <title>Accueil</title>
+        <!-- JS Scripts -->
+        <script src="js/ajax.js" defer></script>
+        <script src="js/10morceaux.js" defer></script>
+        <script src="js/playlist_page_accueil.js" defer></script>
+        <script src="js/header.js" defer></script>
+        <script src="js/favoris_accueil.js" defer></script>
+
+            
+    </head>
+            
+
+    
+    
+    <body class="accueil_log">
+
+        <header>  
+            <a href="accueil.html"> <img class="logo"src="img/logo.png"> </a>
+            <div>
+                <form>
+                    <select id="type-select" class="icon" name="type-select">
+                        <option>artiste</option>
+                        <option>morceau</option>
+                        <option>album</option>
+                    </select>
+                    <!-- <img class="filtre" alt="" src="img/filtre.png"/> -->
+
+                    <button id="search-button" class="icon" type="button">
+                        <img class="icon"src="img/loupe.png" >
+                    </button>
+
+            </div>
+
+          
+                    <input type="text"  class="recherche" id="monChamp" placeholder="Recherche">
+                     <button id="search-button_recherche" class="icon" type="button">
+                        <img class="icon"src="img/loupe.png" >
+                    </button>
+                   
+                    
+                </form>
+            <a href="bibliotheque.html"> <img class="icon"src="img/bibliotheque.png"> </a>
+            <a href="gestion-compte.html"> <img class="icon"src="img/maison.png"> </a>
+      </header>
+
+
+        <div class = "layout_principal">
+            <div class = titre>
+                <h1 class = "text_playlist">Playlist</h1>
+                <h1 class = "text_playlist">Historique</h1>
+
+            </div>   
+            
+            <div class="listes">
+                <div class="partie_droite">
+                    <div class="container-a" id="playlistContainer">
+                        <!-- Les éléments  seront créés dynamiquement -->
+                    </div>
+  
+                <div class= "favoris">
+
+                    <a href="favoris.html"><h1 class ="text_favoris">Liste des <br>morceaux favoris</h1></a>
+ 
+                        <div class = "container-a"id="favorisContainer">                   
+    
+                        </div>
+
+
+                </div>
+            </div> 
+                
+                
+                 <div class="historique">
+                    <!-- Les éléments de l'historique seront générés dynamiquement ici -->
+                </div>
+                    
+                    
+
+
+                </div>
+
+            </div>
+
+
+           
+
+
+
+
+        </div>
+       
+       
+       
+        <footer>
+            <div class="container">
+            <div class="reseau">
+                  <img src = "img/insta.png" href="#">
+                  <img src = "img/facebook.png" href="#">
+                  <img src = "img/twitter.png" href="#">
+            </div>
+            <div class ="bouton-retour" onclick="scrollToTop()">Retour</div>
+            <a href="#"> <img class="logo"src="img/logo.png"> </a>
+            </div>
+          </footer>
+
+
+
+    </body>
+
+</html>

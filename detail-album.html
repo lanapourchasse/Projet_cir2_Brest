@@ -1,89 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <link rel="stylesheet" href="css/global.css" />
-    <link rel="stylesheet" href="css/detail_album.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Linden Hill:ital,wght@0,400;1,400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Limelight:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Gill Sans MT Condensed:wght@400&display=swap"
-    />
-  </head>
-  <body>
-    <div class="detail-album">
-      <div class="album1">
-        <div class="album-child"></div>
-        <div class="genre-musical-parent">
-          <div class="genre-musical">Genre musical</div>
-          <div class="date">
-            <div class="jour">Jour</div>
-            <div class="mois">
-              <span>Mois</span>
-              <span class="span"> </span>
+    <head>
+            <meta charset="utf-8">
+            <title>Detail-Album</title>
+            <link rel="stylesheet" type="text/css" href="css/detail-album.css">  
+            <link rel="stylesheet" type="text/css" href="css/global.css">
+
+            <script src="js/ajax.js"></script>   
+            <script src="js/album.js"></script> 
+    </head>
+    
+    
+    <body>
+
+        <header>  
+            <a href="accueil.html"> <img class="logo"src="img/logo.png"> </a>
+            <a href="#"> <img class="icon"src="img/filtre.png"> </a>
+          
+            <input type="text"  class="recherche" id="monChamp" placeholder="Recherche">
+            
+            <a href="#"> <img class="icon"src="img/loupe.png"> </a>
+            <a href="bibliotheque.html"> <img class="icon"src="img/bibliotheque.png"> </a>
+            <a href="gestion-compte.html"> <img class="icon"src="img/maison.png"> </a>
+      </header>
+        <div class="container-a ">
+
+            <div class="gauche">
+                <h1>Titre</h1>
+                <a href="artiste.html" > <h2 id =Artiste>Artiste</h2></a>
             </div>
-            <div class="anne">Année</div>
-          </div>
+
+            <div class="droite">
+                <h2>Hard</h2>
+                <h3>01/02/2024</h3>
+              
+            </div>
+
         </div>
-        <div class="artiste-parent1">
-          <div class="artiste27">Artiste</div>
-          <div class="titre12">Titre</div>
-        </div>
+
+
         
-     
-        <div class="qualf-11" id="qualf1Container">
-          <img class="qualf-1-icon2" alt="" src="img/2.png" />
+        <img src="img/2.png" class="img_album">
+        
+        <div class="titre" >
+            
+            
+            <div class="playlist">
+                <!-- <div class="le_son">
+                    <a href="morceau.html" >
+                    <div class="rectangle">  
+                        <img src="img/sound.png" class="rectangle-img ">
+                        <p class="rectangle-info">Titre</p>
+                        <p class="rectangle-info">00:00</p>
+                        <img src="img/play.png" class="rectangle-img ">
+                        
+                    </div>  
+                    </a>  
+                </div> -->
+            </div>
+            
+
+
+
+
         </div>
-        <div class="liste-morceaux2">
-          <div class="affichage-1-morceau6" id="affichage1MorceauContainer">
-            <div class="affichage-1-morceau-child4"></div>
-            <img
-              class="bootstrapmediasoundwave-icon6"
-              alt=""
-              src="img/sound.png"
-            />
 
-            <div class="titre13">Titre</div>
-            <i class="i6">00:00</i>
-          </div>
-          <div class="affichage-1-morceau7" id="affichage1MorceauContainer1">
-            <div class="affichage-1-morceau-child5" id="rectangle4"></div>
-            <img
-              class="bootstrapmediasoundwave-icon6"
-              alt=""
-              src="img/sound.png"
-            />
+        <footer>
+            <div class="container">
+            <div class="reseau">
+                  <img src = "img/insta.png" href="#">
+                  <img src = "img/facebook.png" href="#">
+                  <img src = "img/twitter.png" href="#">
+            </div>
+            <div class ="bouton-retour" onclick="scrollToTop()">Retour</div>
+            <a href="#"> <img class="logo"src="img/logo.png"> </a>
+            </div>
+          </footer>
 
-            <div class="titre13">Titre</div>
-            <i class="i6">00:00</i>
-          </div>
-          <div class="affichage-1-morceau8" id="affichage1MorceauContainer2">
-            <div class="affichage-1-morceau-child4"></div>
-            <img
-              class="bootstrapmediasoundwave-icon6"
-              alt=""
-              src="img/sound.png"
-            />
 
-            <div class="titre13">Titre</div>
-            <i class="i6">00:00</i>
-          </div>
-        </div>
-        <img class="play-icon" alt="" src="img/play.png" />
-
-        <img class="play-icon1" alt="" src="img/play.png"  />
-
-        <img class="play-icon2" alt="" src="img/play.png"  />
-      </div>
-    </div>
-
-  </body>
+    </body>
 </html>
